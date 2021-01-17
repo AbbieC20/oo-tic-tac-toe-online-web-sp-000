@@ -122,7 +122,7 @@ end #CLASS end
 
 def play
   until self.over? == true
-    
+    self.turn 
   end
 
 end
