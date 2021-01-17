@@ -117,4 +117,10 @@ class TicTacToe
     end
   end
 
-end #CLASS END
+end #CLASS end
+
+
+def play
+  puts "Welcome to Tic Tac Toe!"
+
+end
