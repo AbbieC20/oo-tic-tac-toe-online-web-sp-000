@@ -95,9 +95,12 @@ class TicTacToe
       return false
     else
       return true
-    end 
+    end
   end
 
+  def over?
+
+  end 
 
 
 
