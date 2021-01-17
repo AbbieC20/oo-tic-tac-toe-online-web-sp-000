@@ -89,9 +89,9 @@ class TicTacToe
   end
 
   def draw?
-    if self.full? == false #if its still going
+    if self.full? == false
       return false
-    elsif self.won? != false #someone has won
+    elsif self.won? != false
       return false
     else
       return true
@@ -99,9 +99,9 @@ class TicTacToe
   end
 
   def over?
-    if self.won? != false #someone has won
+    if self.won? != false
       return true
-    elsif self.draw? == true #there's a draw
+    elsif self.draw? == true
       return true
     else
       return false
