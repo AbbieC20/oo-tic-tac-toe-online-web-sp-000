@@ -99,13 +99,13 @@ class TicTacToe
   end
 
   def over?
-    if #won game
+    if self.won? != false #someone has won
       return true
-    elsif #draw game
+    elsif self.draw? #there's a draw
       return true
     else
       return false
-    end 
+    end
   end
 
 
