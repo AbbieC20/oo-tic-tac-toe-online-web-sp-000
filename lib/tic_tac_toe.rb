@@ -125,6 +125,7 @@ class TicTacToe
       puts "Congratulations #{self.winner}!"
     elsif self.draw? == true
       puts "Cat's Game!"
+    end
   end
 
 end #CLASS end
