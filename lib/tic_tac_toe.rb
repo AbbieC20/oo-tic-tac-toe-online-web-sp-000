@@ -103,10 +103,10 @@ class TicTacToe
       return true
     elsif #draw game
       return true
-    else 
+    else
       return false
     end 
-  end 
+  end
 
 
 
