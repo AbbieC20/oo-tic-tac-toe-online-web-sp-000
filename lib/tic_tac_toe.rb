@@ -123,6 +123,8 @@ class TicTacToe
     end
     if self.won? != false
       puts "Congratulations #{self.winner}!"
+    elsif self.draw? == true
+      puts "Cat's Game!"
   end
 
 end #CLASS end
