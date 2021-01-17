@@ -109,7 +109,14 @@ class TicTacToe
   end
 
   def winner
-  end 
+    if #X has won
+      return #"Yay, X has won!"
+    elsif # O has won
+      return #"Yay, O has won!"
+    else
+      return nil
+    end 
+  end
 
 
 
