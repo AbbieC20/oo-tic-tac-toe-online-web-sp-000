@@ -108,6 +108,9 @@ class TicTacToe
     end
   end
 
+  def winner
+  end 
+
 
 
 
