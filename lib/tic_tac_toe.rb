@@ -109,7 +109,7 @@ class TicTacToe
   end
 
   def winner
-    winning_combination = self.won? 
+    winning_combination = self.won?
     if winning_combination != false
       winning_position = winning_combination[0]
       return @board[winning_position]
