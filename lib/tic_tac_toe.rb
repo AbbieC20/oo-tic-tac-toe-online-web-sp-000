@@ -99,7 +99,13 @@ class TicTacToe
   end
 
   def over?
-
+    if #won game
+      return true
+    elsif #draw game
+      return true
+    else 
+      return false
+    end 
   end 
 
 
