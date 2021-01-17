@@ -110,8 +110,8 @@ class TicTacToe
 
   def winner
     winning_combination = self.won?
-    if winning_combination != false
-      return @board[winning_combination[0]]
+    if winning_combination != false #i.e. if there's a winner
+      return @board[winning_combination[0]] #return token held in the first position of the winning array
     else
       return nil
     end
