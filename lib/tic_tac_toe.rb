@@ -117,11 +117,10 @@ class TicTacToe
     end
   end
 
-end #CLASS end
-
-
-def play
-  until self.over? == true
-    self.turn
+  def play
+    until self.over? == true
+      self.turn
+    end
   end
-end
+
+end #CLASS end
