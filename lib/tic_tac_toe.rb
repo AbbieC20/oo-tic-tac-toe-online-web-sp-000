@@ -121,8 +121,8 @@ end #CLASS end
 
 
 def play
-  until
-
+  until self.over? == true
+    
   end
-  
+
 end
