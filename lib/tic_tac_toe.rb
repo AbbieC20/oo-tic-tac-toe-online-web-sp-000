@@ -121,6 +121,8 @@ class TicTacToe
     until self.over? == true
       self.turn
     end
+    if self.won? != false 
+      puts "Congratulations #{self.winner}!"
   end
 
 end #CLASS end
